@@ -5,6 +5,7 @@ import Experience from './ExperienceComponent';
 import Skills from './SkillsComponent';
 import {JOBS, EDUCATION, SKILLS, PERSONAL_INFO} from '../shared/resumeInfo';
 import Personal from './PersonalComponent'
+import Avatar from './AvatarComponent';
 
 
 class Resume extends Component {
@@ -24,12 +25,7 @@ class Resume extends Component {
                 <Row>
                     <Col className="resume-left-col" sm="4" style={{ backgroundColor: 'rgb(223, 223, 223)'}}>
                         <div style={{ textAlign: 'center' }}>
-                            <img
-                                className='main-gradient-color'
-                                src="https://kahoot.com/files/2017/05/james_trans.png"
-                                alt="avatar"
-                                style={{ height: "200px", borderRadius: '15%', marginTop: '25px' }}
-                            />
+                        <Avatar/>
                         </div>
                         {this.state.personalInfo.map((p) => (
                                 <Personal 
