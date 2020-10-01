@@ -1,0 +1,19 @@
+
+.transitions-item {
+  overflow: hidden;
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 800;
+  /* font-family: monospace; */
+  /* text-transform: uppercase; */
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: pointer;
+  /* line-height: 80px; */
+  padding-right: 55px;
+  padding-left: 55px;
+}
