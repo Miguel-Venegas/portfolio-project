@@ -54,7 +54,7 @@
 }
 
 .banner-text hr {
-  border-top: 5px solid  rgb(223, 223, 223);
+  border-top: 5px solid #02344b;
   width:90%;
 } 
 .banner-text p {
@@ -73,11 +73,15 @@
 }
 
 .social-links i {
-  /* color: rgb(223, 223, 223); */
-  color:'black';
+  color:#02344b;
   font-size: 3em;
   padding:10px;
+}
 
+.social-links i:hover {
+  transform: scale(1.1);
+  transition: 0.25s;
+  color: #4B1902;
 }
 
 .card-projects {
@@ -147,7 +151,7 @@
 /* resume page */
 
 .resume-right-col {
-  background:#02344b;
+  background:#6b5f31a8;
   color:white;
   padding: 2em; 
 }

@@ -45,7 +45,7 @@ class Resume extends Component {
                     <Col className="resume-right-col" sm="8">
                         <h2>Education</h2>
                             {this.state.education.map((e) => (
-                                <Education 
+                                <Education
                                     id={e.id} 
                                     name={e.name}   
                                     startYear={e.start} 

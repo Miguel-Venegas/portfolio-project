@@ -21,7 +21,7 @@ class Home extends Component {
                             {/* <h1>Full Stack Web Developer</h1> */}
                             <JobTitle/>
                             <hr/>
-                            <p> HTML | CSS | Bootstrap | JavaScript | React | React Native | MongoDB | Express | Node JS </p>
+                            <p style={{color:'#344B02',}}> HTML | CSS | Bootstrap | JavaScript | React | React Native | MongoDB | Express | Node JS </p>
                             <div className="social-links">
                                 {/*Linkedin*/}
                                 <Link to="https://www.google.com/" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"/></Link>
