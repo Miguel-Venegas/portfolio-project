@@ -12,13 +12,12 @@ class Main extends Component {
     render() {
         return(
             <nav>
-                <Navbar className="mainNav">
-                    <NavbarBrand>Miguel's Portfolio</NavbarBrand>
-                    <NavLink  activeClassName="active-link" exact to='/'>Home</NavLink>
-                    <NavLink activeClassName="active-link" exact to='/resume'>Resume</NavLink>
-                    <NavLink activeClassName="active-link" exact to='/projects'>Projects</NavLink>
-                    <NavLink activeClassName="active-link" exact to='/contact'>Contact</NavLink>
-
+                <Navbar  className="mainNav">
+                    <NavbarBrand className='nav-link' href="/">Miguel's Portfolio</NavbarBrand>
+                    <NavLink className='nav-link' activeClassName="active-link" exact to='/'>Home</NavLink>
+                    <NavLink className='nav-link' activeClassName="active-link" exact to='/resume'>Resume</NavLink>
+                    <NavLink className='nav-link' activeClassName="active-link" exact to='/projects'>Projects</NavLink>
+                    <NavLink className='nav-link' activeClassName="active-link" exact to='/contact'>Contact</NavLink>
                 </Navbar>
                 <Switch>
                     <Route exact path="/" component={Home}/>

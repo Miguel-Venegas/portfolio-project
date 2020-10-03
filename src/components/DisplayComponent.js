@@ -13,8 +13,6 @@ class DisplayInfo extends Component {
         this.state = {
             projects : PROJECTS,
             personalInfo: PERSONAL_INFO,
-
-
         };
     }
 

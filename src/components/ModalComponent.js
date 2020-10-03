@@ -79,7 +79,7 @@ const ModalExample = (props) => {
 
   return (
     <div>
-      <Button style={{backgroundColor:'#02344b'}} onClick={toggle}>{buttonLabel}See my work</Button>
+      <Button className='modal-button' style={{backgroundColor:'#02344b'}} onClick={toggle}>{buttonLabel}See my work</Button>
       <Modal isOpen={modal} modalTransition={{ timeout: 700 }} backdropTransition={{ timeout: 1300 }}
         toggle={toggle} className={className}>
         <ModalInfo/>
